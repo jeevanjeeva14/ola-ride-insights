@@ -8,7 +8,7 @@ st.set_page_config(page_title="OLA Ride Insights Dashboard", layout="wide")
 st.title("🚕 OLA Ride Insights Dashboard")
 
 # Load dataset
-df = pd.read_csv("dataset/cleaned_ola_dataset.csv")
+df = pd.read_csv("cleaned_ola_dataset.csv")
 
 # Dataset preview
 st.subheader("Dataset Preview")
